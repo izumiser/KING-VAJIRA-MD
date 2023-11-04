@@ -4,7 +4,7 @@
   <p align="center">
     <a href="https://chat.whatsapp.com/IpDbNkTpz1l520HHFuS7B7">
       <img alt="Support" height="300"
-        src="https://telegra.ph/file/d56271ce89ab876ba00b8.jpg">
+        src="https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg">
     </a>
   </p>
   <h1 align="center">MAC-𝙼𝙳 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 𝙱𝙾𝚃</h1>
@@ -22,9 +22,9 @@ Scan QR Code
 1. ***Get [SESSION-ID](https://replit.com/@maccoder74/MAC-Md?v=1) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 --- 
 # ```Fork Repo```
-2. ***Click [FORK](https://github.com/Maccoder3/MAC-MD/fork)***
+2. ***Click [FORK](https://github.com/vajirabot1/DARK-VAJIRA-MD/fork)***
 # ```WATCH TUTORIAL```
-3. ***WATCH [TUTORIAL](https://youtu.be/t6dvww00lQA?si=mOdD154N3Tgq5IK5)***
+3. ***WATCH [TUTORIAL](https://youtube.com/@gamingewingyt6216)***
 ---
   <hr>
   <h2>Deployments METHODS</h2>
@@ -47,7 +47,7 @@ Scan QR Code
     <br>
     <h4 align="center">Deploy on Heroku</h4>
     <p align="center">
-      <a href="https://heroku.com/deploy?template=https://github.com/Maccoder3/MAC-MD">
+      <a href="https://heroku.com/deploy?template=https://github.com/vajirabot1/DARK-VAJIRA-MD">
         <img src="https://www.herokucdn.com/deploy/button.png" width="170px" alt="Deploy on Heroku">
       </a>
     </p>
