@@ -1,5 +1,5 @@
 {
-  "name": "MAC-Md ",
+  "name": "DARK-Md ",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
   "logo": "https://telegra.ph/file/8ec95da555e8347af71bd.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "macbot", "mac","MACMD","theme bot","multi device","baileys","mac"],
@@ -8,7 +8,7 @@
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "MAC"
+      "value": "VAJIRA"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
@@ -32,7 +32,7 @@
 },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/8ec95da555e8347af71bd.jpg"
+     "value": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -68,7 +68,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "256705036288"
+       "value": "94766943622"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit https://replit.com/@Excelottah/BLACK-Md"
@@ -84,11 +84,11 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are IZUKU,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "IZUKU"
+     "value": "VAJIRA"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-         "value": "private"
+         "value": "public"
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
@@ -97,7 +97,7 @@
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "MAC;MD",
+     "value": "VAJIRA;MD",
      "required": false 
   },
   "heroku": {
