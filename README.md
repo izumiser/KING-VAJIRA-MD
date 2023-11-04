@@ -19,7 +19,7 @@
 ---
 Scan QR Code
 
-1. ***Get [SESSION-ID](https://replit.com/@maccoder74/MAC-Md?v=1) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ***Get [SESSION-ID](https://replit.com/@VajiraRathnayak/VAJIRA-MD-6?v=1) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 --- 
 # ```Fork Repo```
 2. ***Click [FORK](https://github.com/vajirabot1/DARK-VAJIRA-MD/fork)***
@@ -33,7 +33,7 @@ Scan QR Code
     <br><br>
     <h4 align="center">Deploy on Repl.it</h4>
     <p align="center">
-      <a href="https://repl.it/github/Maccoder3/MAC-MD">
+      <a href="https://repl.it/github/vajirabot/DARK-VAJIRA-MD">
         <img src="https://repl.it/badge/github/quiec/whatsasena" width="170px" alt="Deploy on REPLIT">
       </a>
     </p>
