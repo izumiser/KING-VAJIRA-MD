@@ -1,13 +1,13 @@
 {
- "name": "izuku-md",
+ "name": "vajira-md",
  "version": "0.0.7",
  "description": "Multi device whatsapp bot by excelottah6.",
  "main": "lib/client.js",
  "type": "commonjs",
  "license": "GPL-3.0",
  "scripts": {
-  "start": "pm2 start lib/client.js --deep-monitoring --attach --name izuku",
-  "stop": "pm2 stop izuku"
+  "start": "pm2 start lib/client.js --deep-monitoring --attach --name vajira",
+  "stop": "pm2 stop vajira"
  },
  "author": "excelottah6",
 "dependencies": {
@@ -70,10 +70,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/excelottah/IZUKU-MD.git"
+  "url": "git+https://github.com/vajirabot1/DARK-VAJIRA-MD.git"
  },
  "bugs": {
-  "url": "https://github.com/excelottah6/IZUKU-MD/issues"
+  "url": "https://github.com/vajirabot1/DARK-VAJIRA-MD/issues"
  },
- "homepage": "https://github.com/excelottah6/IZUKU-MD#readme"
+ "homepage": "https://github.com/vajirabot1/DARK-VAJIRA-MD#readme"
 }
