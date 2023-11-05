@@ -3,7 +3,6 @@
 const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
 const { mediafire } = require("../lib/mediafire.js");
 const googleTTS = require("google-tts-api");
-const { download} = require('aptoide-scraper');
 const ytdl = require('ytdl-secktor')
 const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
