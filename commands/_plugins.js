@@ -16,6 +16,7 @@ cmd({
         pattern: "plugins",
         alias :['plist'],
         category: "owner",
+        react: "⚙️"
         desc: "Shows list of all externally installed modules",
         filename: __filename
     },
@@ -34,6 +35,7 @@ cmd({
         pattern: "remove",
         alias :['uninstall'],
         category: "owner",
+        react: "⚙️"
         desc: "removes external plugins.",
         filename: __filename
     },
@@ -52,8 +54,9 @@ cmd({
 
 //---------------------------------------------------------------------------
 cmd({
-        pattern: "install",
+        pattern: "install".
         category: "owner",
+        react: "⚙️"
         desc: "Installs external modules..",
         filename: __filename
     },
