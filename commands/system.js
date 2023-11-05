@@ -254,7 +254,7 @@ cmd({
         async(Void, citel, text, isAdmins) => {
             
             const alivtxt = `
-⦁👑𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑⦁*Hello, ${citel.pushName},*\n
+⦁━👑𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑━⦁*Hello\n, ${citel.pushName},*\n
 
 _හරියනකොට අඩන මිනිස්සු වරදිනකොට හිනා වෙනවා🤘_
 ━━━✥◈✥━━━
