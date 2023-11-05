@@ -17,6 +17,10 @@
 	"AUTO_STATUS_READER": {
       "description": "Automatically VIEWS status of every person .",
        "required" :false
+	},
+	  "AUTO_STICKER_SENDER": {
+	"description": "Automatic send sticker"
+	 "required" :false
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
