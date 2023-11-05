@@ -19,7 +19,7 @@
 ---
 Scan QR Code
 
-1. ***Get [SESSION-ID](https://replit.com/@VajiraRathnayak/VAJIRA-MD-6?v=1) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ***Get [SESSION-ID](https://replit.com/@VajiraRathnayak/VAJIRA-MD-7?v=1) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 --- 
 # ```Fork Repo```
 2. ***Click [FORK](https://github.com/vajirabot1/DARK-VAJIRA-MD/fork)***
