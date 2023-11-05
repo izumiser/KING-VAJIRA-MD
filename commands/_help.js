@@ -57,7 +57,7 @@ Secktor.cmd({
                 let total = await sck1.countDocuments()
                 let str = `┏┘ ⊆ ` + fancytext(Config.ownername.split(' ')[0], 38) + ` ⊇ └┓\n`
                 str +=
-                    '```' + ` ───⦁⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ↻⦁───
+                    '```' + ` ─⦁⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ↻⦁─
 👤 User:- ${citel.pushName}»
 🖼️ Theme:- ${tlang().title}»
 📌 Prefix:- [ ${prefix} ]»
@@ -67,7 +67,7 @@ Secktor.cmd({
 📃 Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
 🕐 Time:- ${time}»
 🗓️ Date:- ${date}»
-⦁──👑𝘿𝘼𝙍𝙆-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑──⦁\n
+⦁😈𝘿𝘼𝙍𝙆-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿😈⦁\n
 ` + '```'
                 for (const category in cmds) 
                 {
