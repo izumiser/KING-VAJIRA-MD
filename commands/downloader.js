@@ -145,21 +145,41 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "play",
-            desc: "Downloads audio from youtube.",
+            desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
-            react: "🎶",
             filename: __filename,
-            use: '<give text>',
+            use: '<faded-Alan walker.>',
         },
         async(Void, citel, text) => {
-  
-                if (!text) return await citel.reply(`*_Ohh PLease, Give Me Song Name_*`);
-                let yts = require("secktor-pack")
-                let search = await yts(text);
-                let i = search.all[1] ;
-                let cap = "\t *---Yt Song Searched Data---*   \n\nTitle : " + i.title + "\nUrl : " + i.url +"\nDescription : " + i.timestamp +"\nViews : "+i.views +"\nUploaded : " +i.ago +"\nAuthor : "+i.author.name+"\n\n\nReply 1 To Video \nReply 2 To Audio\n*Xʟɪᴄᴏɴ271-Mᴜʟᴛɪᴅᴇᴠɪᴄᴇ*" ;
-                Void.sendMessage(citel.chat,{image :{url : i.thumbnail}, caption :  cap });
-        })
+            if (!text) return citel.reply(`Use ${command} Back in Black`);
+            let yts = require("secktor-pack");
+            let search = await yts(text);
+            let anu = search.videos[0];
+            let buttonMessage = {
+                image: {
+                    url: anu.thumbnail,
+                },
+                caption: `
+╔═════════•∞•═╗
+│⿻ ${tlang().title} 
+│  *Youtube Player* ✨
+│⿻ *Title:* ${anu.title}
+│⿻ *Duration:* ${anu.timestamp}
+│⿻ *Viewers:* ${anu.views}
+│⿻ *Uploaded:* ${anu.ago}
+│⿻ *Author:* ${anu.author.name}
+╚═•∞•═════════╝
+⦿ *Url* : ${anu.url}
+`,
+                footer: tlang().footer,
+                headerType: 4,
+            };
+            return Void.sendMessage(citel.chat, buttonMessage, {
+                quoted: citel,
+            });
+
+        }
+    )
     //---------------------------------------------------------------------------
 cmd({
             pattern: "ringtone",
