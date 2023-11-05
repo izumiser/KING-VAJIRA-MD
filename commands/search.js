@@ -157,9 +157,7 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "image",
-            alias :['img'],
             category: "search",
-            react: "🖼️"
             desc: "Searches Image on Google",
             use: '<text>',
             filename: __filename,
@@ -179,7 +177,7 @@ cmd({
                         image: {
                             url: images,
                         },
-                        caption: `_Vajira Image Search_\n*${name1}*`,
+                        caption: `_Sector Image Search_\n*${name1}*`,
                         headerType: 4,
                     };
                     Void.sendMessage(citel.chat, buttonMessage, {
