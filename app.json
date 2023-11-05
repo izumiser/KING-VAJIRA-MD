@@ -2,7 +2,7 @@
   "name": "DARK-Md ",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
   "logo": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "macbot", "mac","MACMD","theme bot","multi device","baileys","mac"],
+  "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "darkbot", "dark","DARKMD","theme bot","multi device","baileys","dark"],
   "success_url": "/",
   "stack": "container",
 "env": {
