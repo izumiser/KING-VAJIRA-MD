@@ -4,6 +4,7 @@ cmd({
     pattern: "news",
     desc: "Get the latest news headlines.",
     category: "search",
+    react: "✅",
 }, async (Void, citel) => {
     try {
         const apiKey = 'd18be034e9aec58a6c4d286ef886e9bc'; // Replace with your GNews API key
