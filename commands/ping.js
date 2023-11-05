@@ -17,7 +17,7 @@ Secktor.cmd({
     pattern: "ping",
     desc: "To check ping",
     category: "general",
-    react: "📍"
+    react: "📍",
     filename: __filename,
 },
 async (Void, citel) => {
