@@ -7,7 +7,7 @@
     "STRINGS": { 
         "updater": { 
             "UPDATE": "*Believe it.\nඔබේ බොට් දැනටමත් යාවත්කාලීනයි*",
-            "NEW_UPDATE": "*බොට් යාවත්කාලීන කිරීමට කාලයයි!*\n\n*Changes:*\n",
+            "NEW_UPDATE": "*බොට් යාලීන කිරීමට කාලයයි!*\n\n*Changes:*\n",
             "UPDATED_LOCAL": "*සාර්ථකව යාවත්කාලීන කරන ලදී!*"
         }, 
         "global": {     
