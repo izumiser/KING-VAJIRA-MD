@@ -1,5 +1,10 @@
 /**
-
+██╗███████╗██╗   ██╗██╗  ██╗██╗   ██╗    ███╗   ███╗██████╗ 
+██║╚══███╔╝██║   ██║██║ ██╔╝██║   ██║    ████╗ ████║██╔══██╗
+██║  ███╔╝ ██║   ██║█████╔╝ ██║   ██║    ██╔████╔██║██║  ██║
+██║ ███╔╝  ██║   ██║██╔═██╗ ██║   ██║    ██║╚██╔╝██║██║  ██║
+██║███████╗╚██████╔╝██║  ██╗╚██████╔╝    ██║ ╚═╝ ██║██████╔╝
+╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝     ╚═╝     ╚═╝╚═════╝ 
                                                             
  Copyright (C) 2022.
  Licensed under the  GPL-3.0 License;
@@ -18,7 +23,6 @@ const util = require('util')
 cmd({
             pattern: "addnote",
             category: "owner",
-            react: "📃"
             desc: "Adds a note on db.",
             filename: __filename
         },
@@ -76,7 +80,6 @@ cmd({
 cmd({
             pattern: "unban",
             category: "misc",
-            react: "✅"
             filename: __filename,
             desc: "Unbans banned user (from using bot)."
         },
@@ -182,7 +185,6 @@ cmd({
 cmd({
             pattern: "delnote",
             category: "owner",
-            react: "📃"
             filename: __filename,
             desc: "Deletes note from db."
         },
@@ -198,7 +200,6 @@ cmd({
 cmd({
             pattern: "delallnotes",
             category: "owner",
-            react: "❌"
             filename: __filename,
             desc: "Deletes all notes from db."
         },
@@ -214,7 +215,6 @@ cmd({
 cmd({
             pattern: "ban",
             category: "owner",
-            react: "⛔"
             filename: __filename,
             desc: "Bans user from using bot."
         },
@@ -246,15 +246,15 @@ cmd({
 cmd({
             pattern: "alive",
             category: "general",
-            react: "👨‍💻"
             filename: __filename,
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by  D.A.R.K  | O.F.F.I.C.I.A.L.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by  M.A.C  | O.F.F.I.C.I.A.L.*`
             const alivtxt = `
-⦁──👑𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑──⦁\n*Hello, ${citel.pushName},*
-
+*Hello, ${citel.pushName},*
+_This is  ${tlang().title}._
+${alivemessage}
 ━━✥◈✥━━
 ◈*Version:-* _0.0.7_
 ◈*Uptime:-* _${runtime(process.uptime())}_
