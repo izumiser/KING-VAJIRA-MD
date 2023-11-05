@@ -104,7 +104,7 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/Maccoder3/MAC-MD')
+        let { data } = await axios.get('https://api.github.com/repos/vajirabot1/KING-VAJIRA-MD')
         let cap = `Hey ${citel.pushName}\n
 ╭┈────────────    .· * • ˚
 │*⭐ Total Stars:* ${data.stargazers_count} stars
@@ -120,7 +120,7 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Mac-Repo",
+                    title: "Vajira-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
