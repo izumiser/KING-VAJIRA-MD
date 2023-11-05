@@ -67,7 +67,7 @@ Secktor.cmd({
 📃 Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
 🕐 Time:- ${time}»
 🗓️ Date:- ${date}»
-⦁─😈𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿😈─⦁\n
+\n⦁─😈𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿😈─⦁\n
 ` + '```'
                 for (const category in cmds) 
                 {
