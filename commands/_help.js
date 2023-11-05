@@ -87,7 +87,7 @@ Secktor.cmd({
                     image: { url: await botpic() },
                     caption: str
                 };
-                return await Void.sendMessage(citel.chat, buttonMessaged);
+                return await Void.sendMessage(citel.chat, buttonMessaged, {quoted: citel} );
             }
         }
     )
