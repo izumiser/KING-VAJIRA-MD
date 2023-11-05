@@ -1,7 +1,7 @@
 {
  "name": "vajira-md",
  "version": "0.0.7",
- "description": "Multi device whatsapp bot by excelottah6.",
+ "description": "Multi device whatsapp bot by vajira.",
  "main": "lib/client.js",
  "type": "commonjs",
  "license": "GPL-3.0",
@@ -70,10 +70,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/vajirabot1/DARK-VAJIRA-MD.git"
+  "url": "git+https://github.com/vajirabot1/KING-VAJIRA-MD.git"
  },
  "bugs": {
-  "url": "https://github.com/vajirabot1/DARK-VAJIRA-MD/issues"
+  "url": "https://github.com/vajirabot1/KING-VAJIRA-MD/issues"
  },
- "homepage": "https://github.com/vajirabot1/DARK-VAJIRA-MD#readme"
+ "homepage": "https://github.com/vajirabot1/KING-VAJIRA-MD#readme"
 }
