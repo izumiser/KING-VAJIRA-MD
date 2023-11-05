@@ -2,13 +2,9 @@
 
 const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
 const { mediafire } = require("../lib/mediafire.js");
-const {GDriveDl} = require('../lib/scraper.js')
-const fbInfoVideo = require('fb-info-video'); 
 const googleTTS = require("google-tts-api");
 const ytdl = require('ytdl-secktor')
-const cheerio = require('cheerio')
-const fs  = require('fs-extra');
-const axios= require('axios');
+const fs = require('fs-extra')
 var videotime = 60000 // 1000 min
 var dlsize = 1000 // 1000mb
 
@@ -197,6 +193,57 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
+smd({
+            pattern: "apk",
+            desc: "Downloads apks  .",
+            category: "downloader",
+	        react: "✅",
+            filename: __filename,
+            use: '<add sticker url.>',
+        },
+
+        async(Void, citel, text) => {
+       if (!text) return citel.reply(`*Need Playstore App Name*`)
+try {
+let result = await download(text)
+ const applink = result.dllink
+    const getname = result.name
+    const icon = result.icon
+    const lastupdate = result.lastup
+    const packagename = result.package
+    const size = result.size
+      await Void.bot.sendMessage(citel.chat, {
+        image: {
+            url: icon,  
+        },
+        caption: `
+        \n👑KING VAJIRA👑 APK DOWNLOADER📥
+        \n⏳ *Playstore Download*
+        
+        \n📲 *App name:* ${getname}
+        
+        \n📩 *Last update:* ${lastupdate}
+        
+        \n🖥️ *Package name:* ${packagename}
+        
+        \n📊 *File size:* ${size}`,
+    })
+    return Void.bot.sendMessage(citel.chat, {
+        document: {
+            url: applink,
+        },
+        mimetype: "application/vnd.android.package-archive",
+        fileName: getname,
+    }, {
+        quoted: citel,
+    });
+  } catch (err) {
+    console.error(err);
+    citel.reply(`❌ An error occurred while processing your request. Please try again later.${err}`);
+  }
+	}
+)
+//---------------------------------------------------------------------------
 cmd({
             pattern: "pint",
             desc: "Downloads image from pinterest.",
