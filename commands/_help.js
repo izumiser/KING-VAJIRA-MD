@@ -1,10 +1,5 @@
 /**
-██╗███████╗██╗   ██╗██╗  ██╗██╗   ██╗    ███╗   ███╗██████╗ 
-██║╚══███╔╝██║   ██║██║ ██╔╝██║   ██║    ████╗ ████║██╔══██╗
-██║  ███╔╝ ██║   ██║█████╔╝ ██║   ██║    ██╔████╔██║██║  ██║
-██║ ███╔╝  ██║   ██║██╔═██╗ ██║   ██║    ██║╚██╔╝██║██║  ██║
-██║███████╗╚██████╔╝██║  ██╗╚██████╔╝    ██║ ╚═╝ ██║██████╔╝
-╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝     ╚═╝     ╚═╝╚═════╝ 
+
                                                             
  Copyright (C) 2022.
  Licensed under the  GPL-3.0 License;
@@ -31,7 +26,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "📡",
+            react: "🧑‍💻",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -62,27 +57,27 @@ Secktor.cmd({
                 let total = await sck1.countDocuments()
                 let str = `┏┘ ⊆ ` + fancytext(Config.ownername.split(' ')[0], 38) + ` ⊇ └┓\n`
                 str +=
-                    '```' + ` ❉ ╤╤╤╤ ✿ ╤╤╤╤ ❉
-⇗ User:- ${citel.pushName}»
-⇗ Theme:- ${tlang().title}»
-⇗ Prefix:- [ ${prefix} ]»
-⇗ Owner:- ${Config.ownername}»
-⇗ Plugins:- ${commands.length}
-⇗ Uptime:- ${runtime(process.uptime())}»
-⇗ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
-⇗ Time:- ${time}»
-⇗ Date:- ${date}»
-❉ ╧╧╧╧ ✿ ╧╧╧╧ ❉\n
+                    '```' + ` ───⦁⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ↻⦁───
+👤 User:- ${citel.pushName}»
+🖼️ Theme:- ${tlang().title}»
+📌 Prefix:- [ ${prefix} ]»
+👤 Owner:- ${Config.ownername}»
+📍 Plugins:- ${commands.length}
+🕐 Uptime:- ${runtime(process.uptime())}»
+📃 Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}»
+🕐 Time:- ${time}»
+🗓️ Date:- ${date}»
+⦁──👑𝘿𝘼𝙍𝙆-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑──⦁\n
 ` + '```'
                 for (const category in cmds) 
                 {
                    str += `╭.     ❃ *${tiny(category)}* ❃        ╮\n` ;
                    if(text.toLowerCase() == category.toLowerCase()){ str = `╭.     ❃ *${tiny(category)}* ❃       ╮\n` ;      
-                        for (const plugins of cmds[category]) { str += `✿ ${fancytext(plugins,1)}\n` ; }
+                        for (const plugins of cmds[category]) { str += `⚙️➣ ${fancytext(plugins,1)}\n` ; }
                         str += `╰         \n`  ;
                         break ;
                    }
-                   else { for (const plugins of cmds[category]) { str += `✿ ${fancytext(plugins,1)}\n` ; }
+                   else { for (const plugins of cmds[category]) { str += `⚙️➣ ${fancytext(plugins,1)}\n` ; }
                          str += `╰         \n`  ; 
                    }
   
@@ -100,7 +95,8 @@ Secktor.cmd({
 Secktor.cmd({
             pattern: "list",
             desc: "list menu",
-            category: "general"
+            category: "general",
+            react: "👨‍💻"
         },
         async(Void, citel) => {
             const { commands } = require('../lib');
@@ -133,7 +129,7 @@ Secktor.cmd({
         pattern: "owner",
         desc: "To find owner number",
         category: "general",
-        react: "👾",
+        react: "🧑‍💻",
         filename: __filename
     },
     async(Void, citel) => {
