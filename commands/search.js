@@ -169,6 +169,7 @@ cmd({
             if (!text) return reply("Hey bie please tell me for which pic you're looking");
             let name1 = text.split("|")[0]
             let name2 = text.split("|")[1] || `1`
+            let name2 = text.split("|")[2] || `2`
             citel.reply(`📸▶Sending ${name2} image(s) of ${name1} in chat\n📍ᴄʀᴇᴀᴛɪɴɢ ʙʏ ᴠᴀᴊɪʀᴀ📍`)
             let nn = name2
             for (let i = 0; i < nn; i++) {
