@@ -19,7 +19,7 @@ cmd({
             category: "downloader",
             react: "✅",
             filename: __filename,
-            use: '<Hii,this is izuku>',
+            use: '<Hii,this is vajira>',
         },
         async(Void, citel, text) => {
             if (!text) return citel.reply('Please give me a Sentence to change into audio.')
@@ -143,6 +143,7 @@ cmd({
             pattern: "play",
             desc: "Downloads audio from youtube.",
             category: "downloader",
+            react: "🎶",
             filename: __filename,
             use: '<give text>',
         },
