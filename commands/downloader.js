@@ -96,7 +96,7 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`😔 Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('*Downloading:* '+titleYt)
+                citel.reply('*📥➣Downloading:* '+titleYt)
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -114,7 +114,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⿻ Title : ${titleYt}\n ⿻ File Size : ${fileSizeInMegabytes} MB`,
+                        caption: ` ⦁─😈𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿😈─⦁\n\n📌 Title : ${titleYt}\n\n ☬ File Size : ${fileSizeInMegabytes} MB\n\n───ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ───`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
