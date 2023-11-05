@@ -1,7 +1,7 @@
 {
-  "name": "DARK-Md ",
+  "name": "VAJIRA-MD",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
+  "logo": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "vajirabot", "dark","VAJIRAMD","theme bot","multi device","baileys","vajira"],
   "success_url": "/",
   "stack": "container",
