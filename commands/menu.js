@@ -1,10 +1,10 @@
 const os = require('os');
 const { cmd,tlang,prefix,runtime,formatp} = require('../lib/');
 cmd({
-            pattern: "help",
+            pattern: "menu",
+            alias: ["list","මෙනු","මෙනූ","cmd"],
             desc: "some settings change.",
             category: "extra",
-            react: "🧑‍💻".
             filename: __filename
         },
         async(Void, citel, text) => {
