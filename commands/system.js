@@ -245,17 +245,18 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by  M.A.C  | O.F.F.I.C.I.A.L.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*_හරියනකොට අඩන මිනිස්සු වරදිනකොට හිනා වෙනවා🤘_\n*`
             const alivtxt = `
-*Hello, ${citel.pushName},*
-_හරියනකොට අඩන මිනිස්සු වරදිනකොට හිනා වෙනවා🤘_
-${alivemessage}
+*Hello, ${citel.pushName},*\n
+
+
 ━━✥◈✥━━
-◈*Version:-* _0.0.7_
-◈*Uptime:-* _${runtime(process.uptime())}_
-◈*Owner:-* _${Config.ownername}_
-◈*Branch:-* _${Config.BRANCH}_
-━━✥◈✥━━
+🎋►*Version:-* _0.0.7_
+🎋►*Uptime:-* _${runtime(process.uptime())}_
+🎋►*Owner:-* _${Config.ownername}_
+🎋►*Branch:-* _${Config.BRANCH}_
+━━✥◈✥━━\n\n📲 Install Bot➣ https://github.com/vajirabot1/KING-VAJIRA-MD\n💻 Youtube channel➣
+https://youtube.com/@gamingewingyt6216\n🗃️ Public Group➣ https://chat.whatsapp.com/BvNbfgOzzo77urGqoNjThk\n\n ━━━━━━━━━━━━\nහිමි නැති ආදරෙට බොරු අයිතිවාසිකම් කීවත් හිමි වෙන්නෙ නැ කිසිදාකවත්💔\n
 _Type ${prefix}menu for my command list._
 
 _Powered by ${Config.ownername}_
