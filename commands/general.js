@@ -109,9 +109,9 @@ cmd({
 ╭┈────────────    .· * • ˚
 │*⭐ Total Stars:* ${data.stargazers_count} stars
 │*🍴 Forks:* ${data.forks_count} forks
-│*📡 Repo:* https://github.com/vajirabot1/DARK-VAJIRA-MD
+│*📡 Repo:* https://github.com/vajirabot1/KING-VAJIRA-MD
 │*🏘Group:* https://chat.whatsapp.com/BvNbfgOzzo77urGqoNjThk
-│*🧑‍💻Deploy VAJIRA MD*:https://github.com/vajirabot1/DARK-VAJIRA-MD
+│*🧑‍💻Deploy VAJIRA MD*:https://github.com/vajirabot1/KING-VAJIRA-MD
 ╰──────────────✬      * ˚  ✶`
         let buttonMessaged = {
             image: { url: await botpic() },
