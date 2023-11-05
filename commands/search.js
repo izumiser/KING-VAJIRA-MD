@@ -156,7 +156,8 @@ cmd({
 )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "img",
+            pattern: "image",
+            alias :['img'],
             category: "search",
             react: "🖼️"
             desc: "Searches Image on Google",
