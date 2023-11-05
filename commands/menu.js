@@ -1,7 +1,7 @@
 const os = require('os');
 const { cmd,tlang,prefix,runtime,formatp} = require('../lib/');
 cmd({
-            pattern: "cmd",
+            pattern: "help",
             desc: "some settings change.",
             category: "extra",
             react: "🧑‍💻".
