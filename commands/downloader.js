@@ -118,7 +118,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ⦁─😈𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿😈─⦁\n\n📌 Title : ${titleYt}\n\n ☬ File Size : ${fileSizeInMegabytes} MB\n\nViewers: ${anu.views}\n\n───ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ───`,
+                        caption: ` ✅ඔබ ඉල්ලූ වීඩියෝව✅\n\n⦁─😈𝙆𝙄𝙉𝙂-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿😈─⦁\n\n📌➣ Title : ${titleYt}\n\n🔄➣ File Size : ${fileSizeInMegabytes} MB\n\n👥➣Viewers: ${anu.views}\n\n📥➣Uploaded: ${anu.ago}\n\n👤➣Author: ${anu.author.name}\n\n───ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ───`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
