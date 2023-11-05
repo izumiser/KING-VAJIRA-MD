@@ -1,55 +1,57 @@
 {
-  "__JSON__": true,
-  "AUTHOR": "I",
-  "LANGUAGE": "English",
-  "LANGCODE": "en",
-  "STRINGS": {
-      "updater": {
-          "UPDATE": "*Your bot is already on latest version Sir*",
-          "NEW_UPDATE": "*There is a new update available for the bot!*\n\n*Changes:*\n",
-          "UPDATED_LOCAL": "*Successfully Updated!*"
-      },
-      "global": {
-          "botName": " Powered by Vajira",
-          "body": "𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 𝐵𝑜𝑡",
-          "greet2" : "Sir",
-          "pic1": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
-          "pic2": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
-          "pic3": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
-          "pic4": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
-          "pic5": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
-          "pic6": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
-          "pic7": "https://telegra.ph/file/26fa7a93ca90c0edaae45.jpg",
-           "greet" : "Sir",
-         "dotbody" : "I'm Alive.",
-          "promote": "Admin Role Given to my Darling",
-          "pmallow": "*Hii,This is Secktor*\n*An assistant of My Master.*\nMy Master is busy right now.\nKindly Leave your Message.\n\n_I will inform him about your message asap......_",
-          "pmblock": "❌ Blocked*\n\n You have been blocked for spamming.\n\n _ Powered by Secktor_",
-          "pmwarn": "✋Hii* \nPlease don't spam else I'll block you for spamming. _You have ${checkPermit.times} warning(s)._\n\n *Powered by Secktor*",
-          "permited": "Hii ${tname} Sir*\n\nNow You are permitted by my owner to pm now.\n\n *Powered by Secktor", 
-          "revoked" : "*Hii ${tname} Sir*\n\nYour pm permit permission has been prevoked now.\n\n _Powered by Secktor_",
-          "demote": "Uhh,Admin Role Taken back",
-          "antlink": "Link Detected.\n*Good Bye Sir*",
-          "session": "\n*This is your session.sam.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*Powered by Secktor*",
-          "mention": " Please mention any user Sir",
-          "title": "Vajira",
-          "footer": "Vajira",
-          "by": "Made by: *CitelVoid*",
-          "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
-          "success": "Done ✓",
-          "dot": "Did you mean *help?*",
-          "couple_male": "*I dont want to die alone,I want a female yaar*",
-          "couple_female": "*I dont want to die alone,I want a male yaar*",
-          "admin": "𝑇ℎ𝑖𝑠 𝑐𝑜𝑚𝑚𝑎𝑛𝑑 𝑖𝑠 𝑜𝑛𝑙𝑦 𝑓𝑜𝑟 𝑔𝑟𝑜𝑢𝑝 𝐴𝑑𝑚𝑖𝑛⚠️!",
-          "botAdmin": "𝑃𝑙𝑒𝑎𝑠𝑒 𝑃𝑟𝑜𝑣𝑖𝑑𝑒 𝑚𝑒 𝐴𝑑𝑚𝑖𝑛 𝑅𝑜𝑙𝑒 𝑆𝑖𝑟.❗",
-          "owner": "𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐢𝐬 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ⚠️",
-          "group": "𝑻𝒉𝒊𝒔 𝑭𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒔 𝑶𝒏𝒍𝒚 𝑭𝒐𝒓 𝑮𝒓𝒐𝒖𝒑𝒔❗",
-          "private": "𝑻𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒏 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒕𝒉𝒆 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ⚠️",
-          "bot": "𝑻𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒏 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒃𝒐𝒕 𝒏𝒖𝒎𝒃𝒆𝒓⚠️",
-          "wait": "𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈 𝒚𝒐𝒖𝒓 𝒓𝒆𝒒𝒖𝒆𝒔𝒕✅" 
-      },
-      "error": {
-          "text": "*Uhh,Got an Error*"
-      }
+    "__JSON__": true,
+    "AUTHOR": "Vajira",
+    "theme": "Vajira-Md",
+    "LANGUAGE": "Sinhala",
+    "LANGCODE": "si",
+    "STRINGS": { 
+        "updater": { 
+            "UPDATE": "*Believe it.\nඔබේ බොට් දැනටමත් යාවත්කාලීනයි*",
+            "NEW_UPDATE": "*බොට් යාවත්කාලීන කිරීමට කාලයයි!*\n\n*Changes:*\n",
+            "UPDATED_LOCAL": "*සාර්ථකව යාවත්කාලීන කරන ලදී!*"
+        }, 
+        "global": {     
+            "botName": "Vajira-Md",
+            "body": "whatsapp User Bot", 
+            "greet2" : "Thanks To Vajira Sir",
+            "pic1": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg", 
+            "pic2": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg", 
+            "pic3": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg", 
+            "pic4": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg", 
+            "pic5": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg", 
+            "pic6": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg", 
+            "pic7": "https://telegra.ph/file/fb7993e24f7ecdaecbed5.jpg",
+            "greet" : "Believe it",
+            "dotbody" : "I decided being Vajira King.",
+            "emojii" : "🍑", 
+            "promote": "ඇඩ්මින් භූමිකාව වජිරට ලබා දී ඇත",
+            "pmallow": "*Hii,This is Vajira Tech Info\n අයාචිත තැපැල් යැවීම නිසා ඔබව අවහිර කර ඇත.\n\n _Powered by Vajira Tech Info_",
+            "pmwarn": "✋Hii* \nකරුණාකර අයාචිත තැපැල් කරන්න එපා වෙනත් අයාචිත තැපැල් යැවීම නිසා මම ඔබව අවහිර කරන්නම්. _You have ${checkPermit.times} warning(s)._\n\n Join Public Support Group : \nhttps://chat.whatsapp.com/BvNbfgOzzo77urGqoNjThk\n\n*Powered by Vajira_Md*",
+            "permited": "Hii Sir*\n\nදැන් ඔබට pm කිරීමට මගේ හිමිකරු අවසර දී ඇත.\n\n _Powered by Vajira Tech_", 
+            "revoked" : "*Hii Sir*\n\nඔබගේ pm අවසර අවසරය දැන් අවලංගු කර ඇත.\n\n _Powered by Vajira Tech_",
+            "demote": "අහ්, පරිපාලක භූමිකාව ආපසු ලබා ගන්නා ලදී",
+            "antlink": "Link Detected.\n*Good Bye Rouge pirate*",
+            "session": "\n*මෙය ඔබගේ session.json වේ, එය ආරක්ෂිතව තබා එය නිසි ලෙස ගබඩා කරන්න*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*Powered by Vajira_Md*",
+            "mention": " කරුණාකර මගේ හිමිකරු සඳහන් කරන්න",
+            "title": "Vajira-Md",
+            "footer": "ᴠᴀᴊɪʀᴀ ᴛᴇᴄʜ ɪɴғᴏ \n www.youtube.com/c/SuhailTechInfo",
+            "by": "Made by: Vajira Tech Info",
+            "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+            "success": "Done ✓",
+            "dot": "හායි, ඔබ අදහස් කළේ *-help?*\n නිකන්.. මම රාමන් කනකොට මට කරදර කරන්න එපා",
+            "couple_male": "*මට හොඳටම විශ්වාසයි මට උදව් නොකර ජීවත් වෙන්න බෑ කියලා!*",
+            "couple_female": "*මට හොඳටම විශ්වාසයි මට උදව් නොකර ජීවත් වෙන්න බෑ කියලා!*",
+            "admin": "මෙම විධානය කණ්ඩායම් පරිපාලක සඳහා පමණි⚠️!",
+            "botAdmin": "කරුණාකර මට පරිපාලක භූමිකාව ලබා දෙන්න.❗",
+            "owner": "මෙම විධානය මගේ හිමිකරු සඳහා පමණි⚠️",
+            "group": "මෙම විශේෂාංගය සමූහය සඳහා පමණි❗",
+            "private": "මෙම විශේෂාංගය මගේ හිමිකරු සඳහා පමණි⚠️",
+            "bot": "මෙම විධානය මගේ හිමිකරු සඳහා පමණි⚠️",
+            "wait": "ඔබගේ ඉල්ලීම සැකසීම✅"
+        },
+        "error": {
+            "text": "*You may come to regret trying to manipulate me.\nNow go get this Error fixed*"
+        }
+    }
   }
-}
+  
