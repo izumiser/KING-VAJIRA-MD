@@ -197,7 +197,7 @@ smd({
             pattern: "apk",
             desc: "Downloads apks  .",
             category: "downloader",
-	        react: "✅",
+	    react: "✅",
             filename: __filename,
             use: '<add sticker url.>',
         },
@@ -212,7 +212,7 @@ let result = await download(text)
     const lastupdate = result.lastup
     const packagename = result.package
     const size = result.size
-      await Void.bot.sendMessage(citel.chat, {
+      await Void.sendMessage(citel.chat, {
         image: {
             url: icon,  
         },
@@ -228,7 +228,7 @@ let result = await download(text)
         
         \n📊 *File size:* ${size}`,
     })
-    return Void.bot.sendMessage(citel.chat, {
+    return Void.sendMessage(citel.chat, {
         document: {
             url: applink,
         },
