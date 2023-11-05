@@ -100,6 +100,7 @@ cmd({
         alias: ["git", "sc", "script"],
         desc: "Sends info about repo.",
         category: "general",
+	react: "📃"
         filename: __filename,
     },
     async(Void, citel) => {
@@ -108,9 +109,9 @@ cmd({
 ╭┈────────────    .· * • ˚
 │*⭐ Total Stars:* ${data.stargazers_count} stars
 │*🍴 Forks:* ${data.forks_count} forks
-│*📡 Repo:* https://github.com/Maccoder3/MAC-MD
-│*🏘Group:* https://chat.whatsapp.com/IpDbNkTpz1l520HHFuS7B7
-│*🧑‍💻Deploy MAC MD*:https://github.com/Maccoder3/MAC-MD
+│*📡 Repo:* https://github.com/vajirabot1/DARK-VAJIRA-MD
+│*🏘Group:* https://chat.whatsapp.com/BvNbfgOzzo77urGqoNjThk
+│*🧑‍💻Deploy VAJIRA MD*:https://github.com/vajirabot1/DARK-VAJIRA-MD
 ╰──────────────✬      * ˚  ✶`
         let buttonMessaged = {
             image: { url: await botpic() },
@@ -140,6 +141,7 @@ cmd({
         alias: ["about"],
         desc: "To check bot status",
         category: "general",
+	react: "📃"
         filename: __filename,
     },
     async(Void, citel) => {
