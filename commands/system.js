@@ -18,6 +18,7 @@ const util = require('util')
 cmd({
             pattern: "addnote",
             category: "owner",
+            react: "📃",
             desc: "Adds a note on db.",
             filename: __filename
         },
@@ -75,6 +76,7 @@ cmd({
 cmd({
             pattern: "unban",
             category: "misc",
+            react: "🚫",
             filename: __filename,
             desc: "Unbans banned user (from using bot)."
         },
@@ -107,6 +109,7 @@ cmd({
         pattern: "url",
         alias : ['createurl'],
         category: "misc",
+        react: "📍",
         filename: __filename,
         desc: "image to url."
     },
@@ -180,6 +183,7 @@ cmd({
 cmd({
             pattern: "delnote",
             category: "owner",
+            react: "❌",
             filename: __filename,
             desc: "Deletes note from db."
         },
@@ -195,6 +199,7 @@ cmd({
 cmd({
             pattern: "delallnotes",
             category: "owner",
+            react: "❌",
             filename: __filename,
             desc: "Deletes all notes from db."
         },
@@ -210,6 +215,7 @@ cmd({
 cmd({
             pattern: "ban",
             category: "owner",
+            react: "⛔",
             filename: __filename,
             desc: "Bans user from using bot."
         },
@@ -241,25 +247,26 @@ cmd({
 cmd({
             pattern: "alive",
             category: "general",
+            react: "👨‍💻",
             filename: __filename,
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*_හරියනකොට අඩන මිනිස්සු වරදිනකොට හිනා වෙනවා🤘_\n*`
+            
             const alivtxt = `
-*Hello, ${citel.pushName},*\n
+⦁─👑𝘿𝘼𝙍𝙆-𝙑𝘼𝙅𝙄𝙍𝘼-𝙈𝘿👑─⦁*Hello, ${citel.pushName},*\n
 
-
-━━✥◈✥━━
+_හරියනකොට අඩන මිනිස්සු වරදිනකොට හිනා වෙනවා🤘_
+━━━✥◈✥━━━
 🎋►*Version:-* _0.0.7_
 🎋►*Uptime:-* _${runtime(process.uptime())}_
 🎋►*Owner:-* _${Config.ownername}_
 🎋►*Branch:-* _${Config.BRANCH}_
-━━✥◈✥━━\n\n📲 Install Bot➣ https://github.com/vajirabot1/KING-VAJIRA-MD\n💻 Youtube channel➣
+━━━✥◈✥━━━\n\n📲 Install Bot➣ https://github.com/vajirabot1/KING-VAJIRA-MD\n💻 Youtube channel➣
 https://youtube.com/@gamingewingyt6216\n🗃️ Public Group➣ https://chat.whatsapp.com/BvNbfgOzzo77urGqoNjThk\n\n ━━━━━━━━━━━━\nහිමි නැති ආදරෙට බොරු අයිතිවාසිකම් කීවත් හිමි වෙන්නෙ නැ කිසිදාකවත්💔\n
 _Type ${prefix}menu for my command list._
 
-_Powered by ${Config.ownername}_
+_━━━Powered by ${Config.ownername}━━━_
 `;
             let aliveMessage = {
                 image: {
