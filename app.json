@@ -17,14 +17,6 @@
 	"AUTO_STATUS_READER": {
       "description": "Automatically VIEWS status of every person .",
        "required" :false
-     },
-       "AUTO_STICKER_SENDER": {
-      "description": "Automatically send sticker of every person and sends in log number.",
-       "required" :false 
-    },
-       "AUTO_VOICE_SENDER": {
-      "description": "Automatically send voice of every person and sends in log number.",
-       "required" :false  
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
