@@ -158,6 +158,7 @@ cmd({
 cmd({
             pattern: "image",
             category: "search",
+            react: "🖼️"
             desc: "Searches Image on Google",
             use: '<text>',
             filename: __filename,
