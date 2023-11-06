@@ -316,7 +316,9 @@ cmd({
                             renderLargerThumbnail: true,
                             thumbnailUrl: search.all[0].thumbnail,
                             mediaUrl: text,
-                            caption: `👑 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ᴠ1*\n👩‍💻 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
+                            mimetype: "application/vnd.android.package-archive",
+                            fileName: getname,
+                            caption: `👑 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ᴠ1*
                             mediaType: 1,
                             thumbnail: await getBuffer(search.all[0].thumbnail),
                             sourceUrl: text,
@@ -330,7 +332,6 @@ cmd({
             }
             fs.unlinkSync(`./${randomName}`);
             
-
 
         }
     )
