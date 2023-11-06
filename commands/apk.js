@@ -23,7 +23,7 @@ let result = await download(text)
             url: icon,
         },
         caption: `
-        \n ✧ *QUEEN NICKY APP DOWNLOADER*
+        \n ✧ *KING VAJIRA APP DOWNLOADER*
         \n━━━━━━━━━━━━━━━━━━
         
         \n ┇📚 *ᴀᴘᴘ ɴᴀᴍᴇ:* ${getname}
@@ -42,8 +42,8 @@ let result = await download(text)
         },
         mimetype: "application/vnd.android.package-archive",
         fileName: getname,
-        caption: `🧚 *𝑄ᴜᴇᴇɴ ɴɪᴄᴋʏ ᴍᴅ ᴠ1*
-👩‍💻 *ᴄʀᴇᴛᴇᴅ ʙʏ ᴄʏʙᴇʀ ᴍʀ-ᴅᴜᴍɪᴅᴜ*`,
+        caption: `🧚 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ᴠ1*
+👩‍💻 *ᴄʀᴇᴛᴇᴅ ʙʏ ᴄʏʙᴇʀ ᴠᴀᴊɪʀᴀ*`,
     }, {
         quoted: citel,
     });
