@@ -4,7 +4,7 @@ cmd({
     pattern: "apk",
     alias: ["ps","downapk","playstore"],
     desc: "download playstore app",
-    react: "🏷️",
+    react: "📥",
     category: "downloader",
     filename: __filename,
 },
@@ -34,7 +34,7 @@ let result = await download(text)
         
         \n ┇📊 *ꜰɪʟᴇ ꜱɪᴢᴇ:* ${size}
         
-        \n ❭ *Qᴜᴇᴇɴ ɴɪᴄᴋʏ ᴍᴅ ° ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
+        \n ❭ *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ° ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
     })
     return Void.sendMessage(citel.chat, {
         document: {
@@ -42,7 +42,7 @@ let result = await download(text)
         },
         mimetype: "application/vnd.android.package-archive",
         fileName: getname,
-        caption: `🧚 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ᴠ1*
+        caption: `👑 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ᴠ1*
 👩‍💻 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
     }, {
         quoted: citel,
