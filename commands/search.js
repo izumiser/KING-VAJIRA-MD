@@ -156,8 +156,8 @@ cmd({
 )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "image",
-            alias :['img'],
+            pattern: "img",
+            alias :['image'],
             category: "search",
             react: "🖼️",
             desc: "Searches Image on Google",
@@ -190,8 +190,8 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "image2",
-            alias :['img2'],
+            pattern: "img2",
+            alias :['image2'],
             category: "search",
             react: "🖼️",
             desc: "Searches Image on Google",
