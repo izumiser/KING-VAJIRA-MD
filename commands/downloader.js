@@ -308,7 +308,6 @@ cmd({
                     audio: fs.readFileSync(`./${randomName}`),
                     mimetype: 'audio/mpeg',
                     fileName: titleYt + ".mp3",
-                    caption: `👑 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ᴠ1*\n👩‍💻 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
                     headerType: 4,
                     contextInfo: {
                         externalAdReply: {
@@ -317,6 +316,7 @@ cmd({
                             renderLargerThumbnail: true,
                             thumbnailUrl: search.all[0].thumbnail,
                             mediaUrl: text,
+                            caption: `👑 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ᴠ1*\n👩‍💻 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
                             mediaType: 1,
                             thumbnail: await getBuffer(search.all[0].thumbnail),
                             sourceUrl: text,
