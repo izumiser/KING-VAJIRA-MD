@@ -34,16 +34,16 @@ let result = await download(text)
         
         \n ┇📊 *ꜰɪʟᴇ ꜱɪᴢᴇ:* ${size}
         
-        \n ❭ *Qᴜᴇᴇɴ ɴɪᴄᴋʏ ᴍᴅ ° ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʏʙᴇʀ ᴍʀ-ᴅᴜᴍɪᴅᴜ*`,
+        \n ❭ *Qᴜᴇᴇɴ ɴɪᴄᴋʏ ᴍᴅ ° ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
     })
-    return Void.sendMessage(citel.chat, {
+    return Void.sendMessage(citel.chat, {quoted: citel}),{
         document: {
             url: applink,
         },
         mimetype: "application/vnd.android.package-archive",
         fileName: getname,
         caption: `🧚 *ᴋɪɴɢ ᴠᴀᴊɪʀᴀ ᴍᴅ ᴠ1*
-👩‍💻 *ᴄʀᴇᴛᴇᴅ ʙʏ ᴄʏʙᴇʀ ᴠᴀᴊɪʀᴀ*`,
+👩‍💻 *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ*`,
     }, {
         quoted: citel,
     });
