@@ -17,6 +17,7 @@ cmd({
             pattern: "tts",
             desc: "text to speech.",
             category: "downloader",
+            react: "✅",
             filename: __filename,
             use: '<Hii,this is vajira>',
         },
@@ -45,6 +46,7 @@ cmd({
         pattern: "yts",
         desc: "Gives descriptive info of query from youtube..",
         category: "downloader",
+        react: "🎶",
         filename: __filename,
         use: '<yt search text>',
     },
@@ -78,6 +80,7 @@ cmd({
             pattern: "video",
             desc: "Downloads video from yt.",
             category: "downloader",
+            react: "🎥",
             filename: __filename,
             use: '<808-juice wrld >',
         },
@@ -93,7 +96,7 @@ cmd({
                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`😔 Video file too big!`);
                 let titleYt = infoYt.videoDetails.title;
                 let randomName = getRandom(".mp4");
-                citel.reply('*Downloading:* '+titleYt)
+                citel.reply('*📥➣Downloading:* '+titleYt)
                 const stream = ytdl(urlYt, {
                         filter: (info) => info.itag == 22 || info.itag == 18,
                     })
@@ -111,7 +114,7 @@ cmd({
                         jpegThumbnail: log0,
                         mimetype: 'video/mp4',
                         fileName: `${titleYt}.mp4`,
-                        caption: ` ──⦁⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ↻⦁─\n\n📌➣Title : ${titleYt}\n 📍➣File Size : ${fileSizeInMegabytes} MB\n👤➣Author: ${anu.author.name}\n📥➣Uploaded: ${anu.ago}\n🕐➣Duration: ${anu.timestamp}\n👥➣Viewers:* ${anu.views}\n\n◀ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ▶`,
+                        caption: ` ✅─ඔබ ඉල්ලූ වීඩියෝව─✅\n───⦁⇆ㅤ ||◁ㅤ❚❚ㅤ▷||ㅤ ↻⦁──\n\n📌➣Title : ${titleYt}\n 📍➣File Size : ${fileSizeInMegabytes} MB\n👤➣Author: ${anu.author.name}\n📥➣Uploaded: ${anu.ago}\n🕐➣Duration: ${anu.timestamp}\n👥➣Viewers:* ${anu.views}\n\n◀─ɢᴇɴᴀʀᴀᴛᴇᴅ ʙʏ ᴠᴀᴊɪʀᴀ─▶`,
                         headerType: 4,
                         contextInfo: {
                             externalAdReply: {
@@ -140,6 +143,7 @@ cmd({
             pattern: "play",
             desc: "Sends info about the query(of youtube video/audio).",
             category: "downloader",
+            react: "🎶",
             filename: __filename,
             use: '<faded-Alan walker.>',
         },
@@ -178,6 +182,7 @@ cmd({
             pattern: "ringtone",
             desc: "Downloads ringtone.",
             category: "downloader",
+            react: "🎶",
             filename: __filename,
             use: '<ringtone name>',
         },
@@ -193,6 +198,7 @@ cmd({
             pattern: "pint",
             desc: "Downloads image from pinterest.",
             category: "downloader",
+            react: "✅",
             filename: __filename,
             use: '<text|image name>',
         },
@@ -236,6 +242,7 @@ cmd({
             pattern: "mediafire",
             desc: "Downloads zip from Mediafire.",
             category: "downloader",
+            react: "✅",
             filename: __filename,
             use: '<url of mediafire>',
         },
@@ -269,6 +276,7 @@ cmd({
             alias :['audio'],
             desc: "Downloads audio from youtube.",
             category: "downloader",
+            react: "🎶",
             filename: __filename,
             use: '<text>',
         },
@@ -283,7 +291,7 @@ cmd({
             if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`😔 Video file too big!`);
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandom(".mp3");
-            citel.reply('*Downloadig:* '+titleYt)
+            citel.reply('*📥➣Downloadig:* '+titleYt)
             const stream = ytdl(anu.url, {
                     filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,
                 })
@@ -332,6 +340,7 @@ cmd({
             pattern: "ytmp4",
             desc: "Downloads video from youtube.",
             category: "downloader",
+            react: "🎶",
             filename: __filename,
             use: '<yt video url>',
         },
@@ -400,6 +409,7 @@ cmd({
         pattern: "ytmp3",
         desc: "Downloads audio by yt link.",
         category: "downloader",
+        react: "🎶",
         use: '<yt video url>',
     },
     async(Void, citel, text) => {
@@ -476,6 +486,7 @@ cmd({
         pattern: "ytdoc",
         desc: "Downloads audio by yt link as document.",
         category: "downloader",
+        react: "🎶",
         use: '<ytdoc video url>',
     },
     async(Void, citel, text) => {
