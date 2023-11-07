@@ -100,7 +100,7 @@ cmd({
         alias: ["git", "sc", "script"],
         desc: "Sends info about repo.",
         category: "general",
-	react: "📃"
+	react: "📃",
         filename: __filename,
     },
     async(Void, citel) => {
@@ -141,7 +141,7 @@ cmd({
         alias: ["about"],
         desc: "To check bot status",
         category: "general",
-	react: "📃"
+	react: "📃",
         filename: __filename,
     },
     async(Void, citel) => {
