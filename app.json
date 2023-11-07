@@ -79,7 +79,7 @@
     "value": "mongodb+srv://vajira:vajira@cluster0.hzwqrqq.mongodb.net/?retryWrites=true&w=majority "
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are IZUKU,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
+    "description": "Put the theme name you want to use.Available theme is vajira, do not change it will come errors / මේක ව්එන්.අස් කරන්න එපා එර එනව",
      "value": "VAJIRA"
   },
     "WORKTYPE": {
