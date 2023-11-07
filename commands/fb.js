@@ -1,3 +1,6 @@
+const { tlang, ringtone, cmd,fetchJson, sleep, botpic,ffmpeg, getBuffer, pinterest, prefix, Config } = require('../lib')
+const fbInfoVideo = require('fb-info-video'); 
+
 cmd({  
               pattern: "facebook",  
               alias :  ['fb','fbdl'],  
@@ -42,3 +45,4 @@ cmd({
               console.error(err);  
             })  
    })  
+//---------------------------------------------------------------------------
