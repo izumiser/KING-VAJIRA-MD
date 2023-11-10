@@ -81,8 +81,8 @@ cmd({
         async(Void, citel, text) => {
         if (!text) return citel.reply(`*Give Me A Text*`);           
 
-            pack = `𝙳𝙰𝚁𝙺-𝙽𝙴𝚁𝙾 (9.𝟷.𝟶) ✔️`
-            author = `𝚔𝚊𝚟𝚎𝚎𝚜𝚑𝚊\n𝙼𝙰𝙳𝙴 𝙱𝚈 𝚈𝙰𝙺𝚄𝚉𝙰 🪀`            
+            pack = `𝚅𝙰𝙹𝙸𝚁𝙰-𝚖𝚍 (9.𝟷.𝟶) ✔️`
+            author = `𝚅𝙰𝙹𝙸𝚁𝙰\n𝙼𝙰𝙳𝙴 𝙱𝚈 𝚅𝙰𝙹𝙸𝚁𝙰 🪀`            
 
                 let image = `https://api.botcahx.biz.id/api/randomgambar/dadu?apikey=${Config.botapikey}`
                 citel.react("🎲");
