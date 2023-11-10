@@ -60,7 +60,6 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "weather",
-            react: "🌡️",
             category: "search",
             desc: "Sends weather info about asked place.",
             use: '<location>',
@@ -134,7 +133,6 @@ cmd({
     //---------------------------------------------------------------------------
     cmd({
         pattern: "google",
-        react: "🌐",
         alias :['search','gsearch'],
         category: "search",
         desc: "Sends info of given query from Google Search.",
@@ -142,7 +140,7 @@ cmd({
         filename: __filename,
     },
     async(Void, citel, text) => {
-        if (!text) return citel.reply(`give me a query\n*Example : .google Who is Vajira Tech.*`);
+        if (!text) return citel.reply(`give me a query\n*Example : .google Who is Suhail Tech.*`);
         let google = require('google-it');
         google({ 'query': text}).then(res => {
             let msg= `Google Search From : ${text} \n\n`;
@@ -159,8 +157,6 @@ cmd({
     //---------------------------------------------------------------------------
 cmd({
             pattern: "image",
-            react: "🏞",
-            alias :['img','imge'],
             category: "search",
             desc: "Searches Image on Google",
             use: '<text>',
@@ -170,7 +166,7 @@ cmd({
             if (!text) return citel.reply("Provide me a query!")
             if (!text) return reply("Hey bie please tell me for which pic you're looking");
             let name1 = text.split("|")[0]
-            let name2 = text.split("|")[10] || `10`
+            let name2 = text.split("|")[1] || `1`
             citel.reply(`Sending ${name2} image(s) of ${name1} in chat`)
             let nn = name2
             for (let i = 0; i < nn; i++) {
@@ -181,7 +177,7 @@ cmd({
                         image: {
                             url: images,
                         },
-                        caption: `_📸 King Vajira Image Search 📸_\n*${name1}*`,
+                        caption: `_Sector Image Search_\n*${name1}*`,
                         headerType: 4,
                     };
                     Void.sendMessage(citel.chat, buttonMessage, {
@@ -209,7 +205,7 @@ cmd({
         pattern: "iswa",
         category: "search",
         desc: "Searches in given rage about given number.",
-        use: '947669436xx',
+        use: '9112345678xx',
         filename: __filename,
     },
     async(Void, citel, text) => {
