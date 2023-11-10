@@ -355,8 +355,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "song",
-            alias :['audio'],
+            pattern: "song2",
             desc: "Downloads audio from youtube.",
             category: "downloader",
             react: "🎶",
@@ -419,7 +418,8 @@ cmd({
     )
      //---------------------------------------------------------------------------
 cmd({
-            pattern: "song2",
+            pattern: "song",
+	    alias :['audio'],
             react: "🎧",
             desc: "Downloads audio from youtube.",
             category: "downloader",
