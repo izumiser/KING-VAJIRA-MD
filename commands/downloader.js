@@ -159,68 +159,88 @@ cmd({
         }
     )
     //---------------------------------------------------------------------------
-cmd({
-            pattern: "video2",
-	    react: "⬇️",
-            desc: "Downloads video from yt.",
-            category: "downloader",
-            filename: __filename,
-            use: '<faded-Alan Walker>',
-        },
-        async(Void, citel, text) => {
-            let yts = require("secktor-pack");
-            let search = await yts(text);
-            let anu = search.videos[0];
-            let urlYt = anu.url
-            const getRandom = (ext) => {
-                return `${Math.floor(Math.random() * 10000)}${ext}`;
-            };
-                let infoYt = await ytdl.getInfo(urlYt);
-                if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`);
-                let titleYt = infoYt.videoDetails.title;
-                let randomName = getRandom(".mp4");
-            citel.reply('_Download Your Video_')
-	    citel.reply('_Upload Your Video_')
-
-                const stream = ytdl(urlYt, {
-                        filter: (info) => info.itag == 22 || info.itag == 18,
-                    })
-                    .pipe(fs.createWriteStream(`./${randomName}`));
-                await new Promise((resolve, reject) => {
-                    stream.on("error", reject);
-                    stream.on("finish", resolve);
-                });
-                let stats = fs.statSync(`./${randomName}`);
-                let fileSizeInBytes = stats.size;
-                let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024);
-                if (fileSizeInMegabytes <= dlsize) {
-                    let buttonMessage = {
-                        document: fs.readFileSync(`./${randomName}`),
-                        mimetype: 'document/mp4',
-                        fileName: `${titleYt}.mp4`,
-                        caption: `★[KING VAJIRA MD]★ `,                        
+cmd({ 
+             pattern: "video2", 
+            alias :['විඩියො','vd'],
+             desc: "Downloads video from yt.", 
+             category: "downloader", 
+             filename: __filename, 
+             use: '<faded-Alan Walker>', 
+         }, 
+         async(Void, citel, text) => { 
+ Void.sendMessage(citel.chat, {  
+               react: {  
+                   text: "🎥",  
+                   key: citel.key  
+               }  
+           })  
+             let yts = require("secktor-pack"); 
+             let search = await yts(text); 
+             let anu = search.videos[0]; 
+             let urlYt = anu.url 
+             const getRandom = (ext) => { 
+                 return `${Math.floor(Math.random() * 10000)}${ext}`; 
+             }; 
+                 let infoYt = await ytdl.getInfo(urlYt); 
+                 if (infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`❌ Video file too big!`); 
+                 let titleYt = infoYt.videoDetails.title; 
+                 let randomName = getRandom(".mp4"); 
+                 citel.reply('🔎 Search Your Video.') 
+                 const stream = ytdl(urlYt, { 
+                         filter: (info) => info.itag == 22 || info.itag == 18, 
+                     }) 
+                     .pipe(fs.createWriteStream(`./${randomName}`)); 
+                 await new Promise((resolve, reject) => { 
+                     stream.on("error", reject); 
+                     stream.on("finish", resolve); 
+                 }); 
+                 let stats = fs.statSync(`./${randomName}`); 
+                 let fileSizeInBytes = stats.size; 
+                 let fileSizeInMegabytes = fileSizeInBytes / (1024 * 1024); 
+                 if (fileSizeInMegabytes <= dlsize) { 
+  let thumbnaill = search.all[0].thumbnail; 
+   let caption = `✍️title : ${search.all[0].title}
+   
+ 📝 description : ${search.all[0].description}
+  
+ 🖇️ url: ${search.all[0].url}
+  
+ 📚 Author: ${search.all[0].author}
+  
+ ⏳ duration: ${search.all[0].duration}
+  
+ 🧑‍💻 type :
+  .video ${search.all[0].url}  to get video`
+  
+  let butnMessage = {
+                        image: {
+                            url: thumbnaill,
+                        },
+                        caption: caption,
                         headerType: 4,
-                        contextInfo: {
-                            externalAdReply: {
-                                title: titleYt,
-                                body: citel.pushName,
-                                thumbnail: await getBuffer(search.all[0].thumbnail),
-                                renderLargerThumbnail: true,
-				mediaUrl: search.all[0].thumbnail
-                                
-                            }
-                        }
-                    }
-                 Void.sendMessage(citel.chat, buttonMessage, { quoted: citel })
-                 return fs.unlinkSync(`./${randomName}`);
-                } else {
-                    citel.reply(`❌ File size bigger than 100mb.`);
-                }
-                return fs.unlinkSync(`./${randomName}`);      
-
-
-        }
-    )
+                    };
+                    Void.sendMessage(citel.chat, butnMessage, {
+                        quoted: citel,
+                    });
+await sleep(2000);
+                         let buttonMessage = {  
+                          video: fs.readFileSync(`./${randomName}`),
+                          jpegThumbnail: log0,
+                          mimetype: 'video/mp4',  
+                          fileName: `${titleYt}.mp4`, 
+                          caption: `*⬇️ Download video*`, 
+                      }  
+                   Void.sendMessage(citel.chat, buttonMessage, { quoted: citel }); 
+  
+                  return fs.unlinkSync(`./${randomName}`); 
+                 } else { 
+                     citel.reply(`❌ File size bigger than 100mb.`); 
+                 } 
+                 return fs.unlinkSync(`./${randomName}`);       
+  
+  
+         } 
+     )
     //---------------------------------------------------------------------------
 cmd({
 
