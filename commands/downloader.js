@@ -326,9 +326,9 @@ cmd({
 *අළුත් heroku account එකක් හදලා ගන්න*
 
 
-FIRST NAME : ABHISHEK
+FIRST NAME : VAJIRA
 
-SECOND NAME : SURESH
+SECOND NAME : RATHNAYAKA
 
 COUNTRY : US
 
