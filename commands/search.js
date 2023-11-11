@@ -17,7 +17,7 @@ const fetch = require('node-fetch')
 
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "imdb",
+            pattern: "movie",
             category: "search",
             desc: "Sends image of asked Movie/Series.",
             use: '<text>',
